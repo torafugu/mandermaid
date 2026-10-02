@@ -1,0 +1,26 @@
+semanticMap
+node agent "Agent"
+node planning "Planning"
+node perception "Perception"
+node action "Action"
+node memory "Memory"
+node context "Context"
+node archive "Archive"
+node tools "Tools"
+
+around agent {
+  north planning at 1
+  east perception at 1
+  south action at 2
+  west memory at 1
+}
+around memory {
+  west context at 1
+  northwest archive at 2
+}
+around action {
+  tools at 1
+}
+link memory -- planning
+link action -- tools
+focus agent

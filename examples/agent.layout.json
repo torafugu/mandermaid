@@ -1,0 +1,110 @@
+{
+  "positions": {
+    "action": {
+      "x": 434.5584412271572,
+      "y": 0.0
+    },
+    "agent": {
+      "x": 434.5584412271572,
+      "y": -360.0
+    },
+    "archive": {
+      "x": 0.0,
+      "y": -614.558441227157
+    },
+    "context": {
+      "x": 74.55844122715718,
+      "y": -359.99999999999994
+    },
+    "memory": {
+      "x": 254.55844122715718,
+      "y": -360.0
+    },
+    "perception": {
+      "x": 614.5584412271571,
+      "y": -360.00000000000006
+    },
+    "planning": {
+      "x": 434.5584412271571,
+      "y": -540.0
+    },
+    "tools": {
+      "x": 561.8376618407357,
+      "y": -127.27922061357856
+    }
+  },
+  "placements": [
+    {
+      "anchor": "action",
+      "target": "tools",
+      "direction": null,
+      "distance": 1,
+      "resolved_direction": "northeast",
+      "dx": 127.27922061357854,
+      "dy": -127.27922061357856,
+      "residual": 0.0
+    },
+    {
+      "anchor": "agent",
+      "target": "action",
+      "direction": "south",
+      "distance": 2,
+      "resolved_direction": "south",
+      "dx": 4.4087284769304716e-14,
+      "dy": 360.0,
+      "residual": 0.0
+    },
+    {
+      "anchor": "agent",
+      "target": "memory",
+      "direction": "west",
+      "distance": 1,
+      "resolved_direction": "west",
+      "dx": -180.0,
+      "dy": 3.3065463576978534e-14,
+      "residual": 0.0
+    },
+    {
+      "anchor": "agent",
+      "target": "perception",
+      "direction": "east",
+      "distance": 1,
+      "resolved_direction": "east",
+      "dx": 180.0,
+      "dy": -1.1021821192326179e-14,
+      "residual": 0.0
+    },
+    {
+      "anchor": "agent",
+      "target": "planning",
+      "direction": "north",
+      "distance": 1,
+      "resolved_direction": "north",
+      "dx": 0.0,
+      "dy": -180.0,
+      "residual": 0.0
+    },
+    {
+      "anchor": "memory",
+      "target": "archive",
+      "direction": "northwest",
+      "distance": 2,
+      "resolved_direction": "northwest",
+      "dx": -254.55844122715718,
+      "dy": -254.55844122715703,
+      "residual": 0.0
+    },
+    {
+      "anchor": "memory",
+      "target": "context",
+      "direction": "west",
+      "distance": 1,
+      "resolved_direction": "west",
+      "dx": -180.0,
+      "dy": 3.3065463576978534e-14,
+      "residual": 0.0
+    }
+  ],
+  "warnings": [],
+  "unit": 180.0
+}
